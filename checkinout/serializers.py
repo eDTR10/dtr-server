@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import CheckinOut
+from checkinout.models import CheckinOut
 
 class CheckinOutSerializer(serializers.ModelSerializer):
     class Meta:

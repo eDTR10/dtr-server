@@ -1,19 +1,15 @@
 from rest_framework import viewsets
-from rest_framework.response import Response
+
 from rest_framework.decorators import action
 from rest_framework.permissions import IsAuthenticated
-from rest_framework.exceptions import PermissionDenied
-from .models import CheckinOut
 from activity.models import Activity
 from holiday.models import Holiday
 
 
 
 from django.utils import timezone
-from .serializers import CheckinOutSerializer
 from rest_framework.pagination import PageNumberPagination
 from datetime import datetime
-from rest_framework.views import APIView
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status

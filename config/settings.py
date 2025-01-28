@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'accounts',
     "corsheaders",
     'checkinout',
+    'checkinoutRegion',
     'department',
     'activity',
     'holiday'

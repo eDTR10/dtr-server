@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import AdminCheckinOutViewSet,UserCheckinOutViewSet,BulkCreateCheckinOutView
+from checkinout.views import AdminCheckinOutViewSet,UserCheckinOutViewSet,BulkCreateCheckinOutView
 
 urlpatterns = [
     # All records (GET restricted by acc_lvl=14) and create new record
